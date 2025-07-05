@@ -1,0 +1,29 @@
+{
+  "name": "bravos-tipping-platform-v.1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react-dom": "^19.1.0",
+    "react": "^19.1.0",
+    "react-router-dom": "^7.6.3",
+    "@google/genai": "^1.8.0",
+    "qrcode.react": "^4.2.0",
+    "jsqr": "1.4.0",
+    "firebase/compat/app": "10.12.2",
+    "firebase/compat/auth": "10.12.2",
+    "firebase/compat/firestore": "latest",
+    "firebase/compat/storage": "10.12.2",
+    "firebase": "^11.10.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
